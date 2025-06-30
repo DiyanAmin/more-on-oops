@@ -3,9 +3,9 @@ class find_numbers:
     def processer(self,numbers,total_number):
         noname={}
         for index,i in enumerate(numbers):
-            if total_number-numbers in noname:
-                return (noname[total_number-numbers,index])
-            noname[numbers]=index
+            if total_number-i in noname:
+                return (noname[total_number-i,index])
+            noname[i]=index
 n=(10,20,30,40,50,60,70)
 val=int(input('What value do you want to search: '))
 print('Searching....')
